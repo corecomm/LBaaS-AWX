@@ -1,0 +1,37 @@
+{
+ "collection_info": {
+  "namespace": "radware",
+  "name": "radware_modules",
+  "version": "0.0.15",
+  "authors": [
+   "Leon Meguira (@leonmeguira)",
+   "Nati Fridman (@natifridman)",
+   "Nofar Kovalsky-Livkind (@Nofarliv)"
+  ],
+  "readme": "README.md",
+  "tags": [
+   "radware",
+   "alteon",
+   "cloud",
+   "collection",
+   "networking",
+   "sdn"
+  ],
+  "description": "A collection of Ansible Modules for Radware devices",
+  "license": [],
+  "license_file": "COPYING",
+  "dependencies": {},
+  "repository": "https://github.com/Radware/radware-ansible",
+  "documentation": "",
+  "homepage": "https://www.radware.com",
+  "issues": "https://github.com/Radware/radware-ansible/issues"
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "23236aa21c795ea6f75e39fd05f5454a2a8206b821bb1eb7f942f2d49e270707",
+  "format": 1
+ },
+ "format": 1
+}
