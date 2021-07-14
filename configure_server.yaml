@@ -5,30 +5,6 @@
   connection: local
   gather_facts: false
 
-
-  vars_prompt:
-    #Alteon LB connection info input
-    - name: "alteon_username"
-      prompt: "Username:"
-      private: no
-    - name: "alteon_password"
-      prompt: "Password:"
-      private: yes
-    #Real server configuration input
-    - name: "real_index"
-      prompt: "Enter real server index:"
-      private: no
-    - name: "real_state"
-      prompt: "Enter real server state: (options are: enabled|disabled|disabled_with_fastage|shutdown_connection|shutdowm_persistent_sessions)"
-      private: no
-    - name: "real_ip_address"
-      prompt: "Enter real server IPv4 address:"
-      private: no
-    - name: "real_name"
-      prompt: "Enter real server description:"
-      private: no
-
-
   tasks:
     - name: "Configure server module"
       radware.radware_modules.alteon_config_server:
